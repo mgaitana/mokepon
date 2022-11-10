@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+
+<body>
+
+    <section id="seleccionar-mascota">
+        <h1 class="titulo">POKEMON! 🔥 ♒ ☘ </h1>
+
+        <h2 class="subtitulo">Elige a tu mascota:</h2>
+
+        <div class="tarjetas">
+            <input type="radio" name="mascota" id="Hipodoge">
+            <label class="tarjeta-de-mokepon" for="Hipodoge">
+                <p>Hipodoge</p>
+                <img src="img/mokepons_mokepon_hipodoge_attack.png" alt="Hipodoge">
+            </label>
+            <input type="radio" name="mascota" id="Capipepo">
+
+            <label class="tarjeta-de-mokepon" for="Capipepo">
+                <p>Capipepo</p>
+                <img src="img/mokepons_mokepon_capipepo_attack.png" alt="Capipepo">
+            </label>
+
+            <input type="radio" name="mascota" id="Ratigueya">
+            <label class="tarjeta-de-mokepon" for="Ratigueya">
+
+                <p>Ratigueya</p>
+                <img src="img/mokepons_mokepon_ratigueya_attack.png" alt="Ratigueya">
+
+            </label>
+
+        </div>
+
+        <button id="boton-mascota">Seleccionar</button>
+
+    </section>
+
+    <section id="seleccionar-ataque">
+        <h1 class="titulo">POKEMON! 🔥 ♒ ☘ </h1>
+
+        <h2 class="subtitulo">Elige a tu ataque</h2>
+
+        <div class="tarjetas-ataques">
+            <BUtton id="boton-fuego" class="boton-de-ataque">Fuego 🔥</BUtton>
+            <button id="boton-agua" class="boton-de-ataque">Agua ♒ </button>
+            <button id="boton-tierra" class="boton-de-ataque">Tierra ☘ </button>
+
+        </div>
+
+
+        <div id="mensajes">
+            <p id="resultado">Mucha Suerte</p>
+
+            <section id="reiniciar">
+                <button id="boton-reiniciar">Reiniciar</button>
+            </section>
+        </div>
+
+
+        <div class="ataques">
+
+            <div class="ataques-jugador">
+                <p id="vidas-jugador">3</p>
+                <p id="mascota-jugador"></p>
+                <div id="ataque-del-jugador"></div>
+
+            </div>
+            <div class="ataques-enemigo">
+                <p id="vidas-enemigo">3</p>
+                <p id="mascota-enemigo"></p>
+                <div id="ataque-del-enemigo"></div>
+            </div>
+
+        </div>
+
+    </section>
+    <script src="JS/codigo.js"></script>
+
+</body>
+
+</html>
